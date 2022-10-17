@@ -65,6 +65,14 @@ Here is a detailed documentation of the papers and links we used for this projec
 | NLP based sentiment analysis on Twitter | https://ieeexplore.ieee.org/document/7219856 |
 | Deep Learning Model-Based Approach for Twitter Sentiment Classification | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9373371 |
 
+## Notebooks
+
+We include two Jupyter Notebooks for the code
+
+- The first NoteBook ([Comparing-TF-and-PT-models.ipynb](./Comparing-TF-and-PT-models.ipynb)) is used to test the sentiment analysis on YouTube comments Kaggle data.
+
+- The second NoteBook ([Comparing-TF-and-PT-models-SQuAD.ipynb](./Comparing-TF-and-PT-models-SQuAD.ipynb)) used to test the sentiment analysis on YouTube tweets data.
+
 ## Results
 1. For Youtube comments 
 The first code "BERT_sentiment_analysis_using_Youtube_Comments.ipynb" we got these results.
