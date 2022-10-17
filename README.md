@@ -20,6 +20,11 @@ This project was built abd tested in Google Colab. It can be ran the same way. T
 ## Usage Instructions
 
 ## Method
+1. For the code for Sentiment Analysis using BERT titled : 
+BERT_sentiment_analysis_using_Youtube_Comments.ipynb
+-	Feature representation : Bert contextual embedding
+-	Python Algorithm : Gradient Descent machine Learning algorithm
+-	Dataset : YouTube comments from Kaggle
 
 ## Data
 For our data we are utilizing Kaggle's YouTube Statistics dataset, specifically the ccomments.csv file. This data set contains a list of Video ID's, comments, likes, and the Sentiment of the comments. For our project we are only utilizing th comments and their sentiment for training and developing our model.
