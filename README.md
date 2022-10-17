@@ -4,7 +4,7 @@
 
 | Section | Description |
 |-|-|
-| [Project description](#project_description) | Detailed description of the project |
+| [Project description](#project description) | Detailed description of the project |
 | [Installation](#installation) | How to install the package |
 | [Overview](#overview) | Overview of the package |
 | [Method](#method) | Method used for codes |
