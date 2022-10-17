@@ -31,10 +31,13 @@ For our data we are utilizing Kaggle's YouTube Statistics dataset, specifically 
 The size of our data set is 18,409 comments with 12.7% negative sentiment, 25% neutral sentiment, and 62% positive sentiment. 
 
 ## Results
-For the first code "BERT_sentiment_analysis_using_Youtube_Comments.ipynb" we got these results.
+1. #For Youtube comments 
+The first code "BERT_sentiment_analysis_using_Youtube_Comments.ipynb" we got these results.
 Our BERT model has giving us 70% accuracy on the test data.
 
 ![image](https://user-images.githubusercontent.com/83011466/196296921-76b9cbfa-6e26-47b5-b8f0-f9efe0b4b8aa.png)
+
+2. #For Youtube tweets
 
 ## Discussion
 
