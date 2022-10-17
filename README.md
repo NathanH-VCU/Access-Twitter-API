@@ -1,4 +1,18 @@
 # CMSC 516 Twitter/YouTube Sentiment Analysis
+
+## Content
+
+| Section | Description |
+|-|-|
+| [Installation](#installation) | How to install the package |
+| [Overview](#overview) | Overview of the package |
+| [Usage](#usage) | Quickstart examples |
+| [Doc](#doc) |  Detailed documentation |
+| [Examples](#examples) | Detailed examples on how to fine-tune Bert |
+| [Notebooks](#notebooks) | Introduction on the provided Jupyter Notebooks |
+| [TPU](#tpu) | Notes on TPU support and pretraining scripts |
+| [Command-line interface](#Command-line-interface) | Convert a TensorFlow checkpoint in a PyTorch dump |
+
 ## Project Description
 Our Project utilizes the BERT model and PyTorch to provide a sentiment analysis of our YouTube Comments dataset ... to use on our twitter dataset ...
 
