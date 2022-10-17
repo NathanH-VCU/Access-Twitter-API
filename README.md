@@ -61,7 +61,11 @@ Here is a detailed documentation of the papers and links we used for this projec
 
 | Sub-section | Description |
 |-|-|
-| [Loading pre-trained weights](#loading-google-ai-or-openai-pre-trained-weights-or-pytorch-dump) | How to load Google AI/OpenAI's pre-trained weight or a PyTorch saved instance |
+| [IEEE paper Feature Extraction and Analysis of Natural
+Language Processing for Deep Learning English
+Language
+ ](#loading-google-ai-or-openai-pre-trained-weights-or-pytorch-dump) | [How to load Google AI/OpenAI's pre-trained weight or a PyTorch saved instance](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8999624)![image](https://user-images.githubusercontent.com/83011466/196301535-014d98fb-2e16-4998-a9d1-98c80c636bcd.png)
+ |
 | [Serialization best-practices](#serialization-best-practices) | How to save and reload a fine-tuned model |
 | [Configurations](#configurations) | API of the configuration classes for BERT, GPT, GPT-2 and Transformer-XL |
 | [Models](#models) | API of the PyTorch model classes for BERT, GPT, GPT-2 and Transformer-XL |
