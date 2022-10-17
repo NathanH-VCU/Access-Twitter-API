@@ -62,7 +62,7 @@ Here is a detailed documentation of the papers and links we used for this projec
 | Reference | Link |
 |-|-|
 | Feature Extraction for NLP | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8999624&tag=1 |
-| [Serialization best-practices](#serialization-best-practices) | How to save and reload a fine-tuned model |
+| NLP based sentiment analysis on Twitter | https://ieeexplore.ieee.org/document/7219856) |
 | [Configurations](#configurations) | API of the configuration classes for BERT, GPT, GPT-2 and Transformer-XL |
 | [Models](#models) | API of the PyTorch model classes for BERT, GPT, GPT-2 and Transformer-XL |
 | [Tokenizers](#tokenizers) | API of the tokenizers class for BERT, GPT, GPT-2 and Transformer-XL|
