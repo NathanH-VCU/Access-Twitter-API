@@ -69,7 +69,7 @@ Here is a detailed documentation of the papers and links we used for this projec
 
 We include two Jupyter Notebooks for the code
 
-- The first NoteBook ([Comparing-TF-and-PT-models.ipynb](./Comparing-TF-and-PT-models.ipynb)) is used to test the sentiment analysis on YouTube comments Kaggle data.
+- The first NoteBook ([BERT_sentiment_analysis_using_Youtube_Comments.ipynb](./BERT_sentiment_analysis_using_Youtube_Comments.ipynb)) is used to test the sentiment analysis on YouTube comments Kaggle data.
 
 - The second NoteBook ([Comparing-TF-and-PT-models-SQuAD.ipynb](./Comparing-TF-and-PT-models-SQuAD.ipynb)) used to test the sentiment analysis on YouTube tweets data.
 
