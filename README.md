@@ -59,9 +59,9 @@ The size of our data set is 18,409 comments with 12.7% negative sentiment, 25% n
 
 Here is a detailed documentation of the papers and links we used for this project:
 
-| Sub-section | Description |
+| Reference | Link |
 |-|-|
-| [IEEE paper] | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8999624&tag=1 |
+| Feature Extraction for NLP | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8999624&tag=1 |
 | [Serialization best-practices](#serialization-best-practices) | How to save and reload a fine-tuned model |
 | [Configurations](#configurations) | API of the configuration classes for BERT, GPT, GPT-2 and Transformer-XL |
 | [Models](#models) | API of the PyTorch model classes for BERT, GPT, GPT-2 and Transformer-XL |
