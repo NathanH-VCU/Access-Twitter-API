@@ -4,11 +4,11 @@
 
 | Section | Description |
 |-|-|
+| [Project description](#project_description) | Detailed description of the project |
 | [Installation](#installation) | How to install the package |
 | [Overview](#overview) | Overview of the package |
-| [Usage](#usage) | Quickstart examples |
+| [Method](#method) | Method used for codes |
 | [Doc](#doc) |  Detailed documentation |
-| [Examples](#examples) | Detailed examples on how to fine-tune Bert |
 | [Notebooks](#notebooks) | Introduction on the provided Jupyter Notebooks |
 | [TPU](#tpu) | Notes on TPU support and pretraining scripts |
 | [Command-line interface](#Command-line-interface) | Convert a TensorFlow checkpoint in a PyTorch dump |
