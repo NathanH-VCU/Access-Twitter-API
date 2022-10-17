@@ -27,9 +27,9 @@ In order to analyze the comments, we used Pre-trained BERT model to score the se
 
 This package comprises the following classes that can be imported in Python :
 
-  - [`BertModel`](./pytorch_pretrained_bert/modeling.py#L639) - raw BERT Transformer model (**fully pre-trained**),
-  - [`BertForSequenceClassification`](./pytorch_pretrained_bert/modeling.py#L916) - BERT Transformer with a sequence classification head on top (BERT Transformer is **pre-trained**, the sequence classification head **is only initialized and has to be trained**),
-  - [`BertTokenizer.from_pretrained`](./pytorch_pretrained_bert/modeling.py#L1051) - BERT Transformer with a token classification.
+  - [`BertModel`](https://huggingface.co/docs/transformers/model_doc/bert) - raw BERT Transformer model (**fully pre-trained**),
+  - [`BertForSequenceClassification`](https://huggingface.co/docs/transformers/model_doc/bert) - BERT Transformer with a sequence classification head on top (BERT Transformer is **pre-trained**, the sequence classification head **is only initialized and has to be trained**),
+  - [`BertTokenizer.from_pretrained`](https://huggingface.co/docs/transformers/model_doc/bert) - BERT Transformer with a token classification.
 - The **Transformer** PyTorch models (`torch.nn.Module`) 
 - Optimizer for **BERT**  `Adam` - Bert version of Adam algorithm with warmup and linear decay of the learning rate.
 
