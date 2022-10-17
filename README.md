@@ -63,12 +63,7 @@ Here is a detailed documentation of the papers and links we used for this projec
 |-|-|
 | Feature Extraction for NLP | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8999624&tag=1 |
 | NLP based sentiment analysis on Twitter | https://ieeexplore.ieee.org/document/7219856 |
-| Deep Learning Model-Based
-Approach for Twitter Sentiment Classification
- | http |
-| [Models](#models) | API of the PyTorch model classes for BERT, GPT, GPT-2 and Transformer-XL |
-| [Tokenizers](#tokenizers) | API of the tokenizers class for BERT, GPT, GPT-2 and Transformer-XL|
-| [Optimizers](#optimizers) |  API of the optimizers |
+| Deep Learning Model-Based Approach for Twitter Sentiment Classification | https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9373371 |
 
 ## Results
 1. For Youtube comments 
