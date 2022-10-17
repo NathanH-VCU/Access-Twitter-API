@@ -5,7 +5,7 @@
 | Section | Description |
 |-|-|
 | [Project description](#project_description) | Detailed description of the project |
-| [Installation](#installation) | How to install the package |
+| [Installation](#installation_instructions) | How to install the package |
 | [Overview](#overview) | Overview of the package |
 | [Method](#method) | Method used for codes |
 | [Doc](#doc) |  Detailed documentation |
@@ -23,7 +23,19 @@ The dataset in extracted from Kaggle website.
 
 In order to analyze the comments, we used Pre-trained BERT model to score the sentiment (positive,negative,neutral) per comment and then averaged them per video. 
 
+## Overview
+
+This package comprises the following classes that can be imported in Python :
+
+  - [`BertModel`](./pytorch_pretrained_bert/modeling.py#L639) - raw BERT Transformer model (**fully pre-trained**),
+  - [`BertForSequenceClassification`](./pytorch_pretrained_bert/modeling.py#L916) - BERT Transformer with a sequence classification head on top (BERT Transformer is **pre-trained**, the sequence classification head **is only initialized and has to be trained**),
+  - [`BertTokenizer.from_pretrained`](./pytorch_pretrained_bert/modeling.py#L1051) - BERT Transformer with a token classification.
+- The **Transformer** PyTorch models (`torch.nn.Module`) 
+- Optimizer for **BERT** 
+  - `Adam` - Bert version of Adam algorithm with weight decay fix, warmup and linear decay of the learning rate.
+
 ## Installation Instructions
+This repo was tested on Python 2.7 and 3.5+ 
 This project was built abd tested in Google Colab. It can be ran the same way. To run this project yourself:
 1. Follow this link to the Google Colab -
 2. Go to the Colab task bar
