@@ -35,7 +35,7 @@ This package comprises the following classes that can be imported in Python :
 
 ## Installation Instructions
 This repo was tested on Python 2.7 and 3.5+ 
-This project was built abd tested in Google Colab. It can be ran the same way. To run this project yourself:
+This project was built and tested in Google Colab. It can be ran the same way. To run this project yourself:
 1. Follow this link to the Google Colab -
 2. Go to the Colab task bar
 3. Click Runtime
