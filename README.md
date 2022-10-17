@@ -31,8 +31,7 @@ This package comprises the following classes that can be imported in Python :
   - [`BertForSequenceClassification`](./pytorch_pretrained_bert/modeling.py#L916) - BERT Transformer with a sequence classification head on top (BERT Transformer is **pre-trained**, the sequence classification head **is only initialized and has to be trained**),
   - [`BertTokenizer.from_pretrained`](./pytorch_pretrained_bert/modeling.py#L1051) - BERT Transformer with a token classification.
 - The **Transformer** PyTorch models (`torch.nn.Module`) 
-- Optimizer for **BERT** 
-  - `Adam` - Bert version of Adam algorithm with weight decay fix, warmup and linear decay of the learning rate.
+- Optimizer for **BERT**  `Adam` - Bert version of Adam algorithm with warmup and linear decay of the learning rate.
 
 ## Installation Instructions
 This repo was tested on Python 2.7 and 3.5+ 
@@ -56,6 +55,18 @@ BERT_sentiment_analysis_using_Youtube_Comments.ipynb
 For our data we are utilizing Kaggle's YouTube Statistics dataset, specifically the ccomments.csv file. This data set contains a list of Video ID's, comments, likes, and the Sentiment of the comments. For our project we are only utilizing th comments and their sentiment for training and developing our model.
 The size of our data set is 18,409 comments with 12.7% negative sentiment, 25% neutral sentiment, and 62% positive sentiment. 
 
+## Doc
+
+Here is a detailed documentation of the papers and links we used for this project:
+
+| Sub-section | Description |
+|-|-|
+| [Loading pre-trained weights](#loading-google-ai-or-openai-pre-trained-weights-or-pytorch-dump) | How to load Google AI/OpenAI's pre-trained weight or a PyTorch saved instance |
+| [Serialization best-practices](#serialization-best-practices) | How to save and reload a fine-tuned model |
+| [Configurations](#configurations) | API of the configuration classes for BERT, GPT, GPT-2 and Transformer-XL |
+| [Models](#models) | API of the PyTorch model classes for BERT, GPT, GPT-2 and Transformer-XL |
+| [Tokenizers](#tokenizers) | API of the tokenizers class for BERT, GPT, GPT-2 and Transformer-XL|
+| [Optimizers](#optimizers) |  API of the optimizers |
 ## Results
 1. For Youtube comments 
 The first code "BERT_sentiment_analysis_using_Youtube_Comments.ipynb" we got these results.
