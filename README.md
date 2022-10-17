@@ -4,14 +4,14 @@
 
 | Section | Description |
 |-|-|
-| [Project description](#project_description) | Detailed description of the project |
+| [Project description](#project description) | Detailed description of the project |
 | [Installation](#installation) | How to install the package |
 | [Overview](#overview) | Overview of the package |
 | [Method](#method) | Method used for codes |
 | [Doc](#doc) |  Detailed documentation |
 | [Notebooks](#notebooks) | Introduction on the provided Jupyter Notebooks |
-| [TPU](#tpu) | Notes on TPU support and pretraining scripts |
-| [Command-line interface](#Command-line-interface) | Convert a TensorFlow checkpoint in a PyTorch dump |
+| [Data](#data) | Data used to train the models |
+| [Results](#results) | Results of the models |
 
 ## Project Description
 Our Project utilizes the BERT model and PyTorch to provide a sentiment analysis of our YouTube Comments dataset ... to use on our twitter dataset ...
