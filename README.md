@@ -16,12 +16,10 @@
 ## Project Description
 Our Project utilizes the BERT model and PyTorch to provide a sentiment analysis of our YouTube Comments dataset ... to use on our twitter dataset ...
 
-In our project, we analyze the comments of most recent YouTube videos and we evaluate whether they are positive, negative or neutral with the pre-trained model BERT.
-We compare the results obtained with YouTube Comments dataset and the results obtained with YouTube Tweets.
+In our project, we analyze YouTube comments provided by Kaggle and we evaluate whether they are positive, negative or neutral with the pre-trained model BERT.
+We compare the results obtained with YouTube Comments dataset and the results obtained from Twitter users replying to (or commenting on) YouTube Tweets, using Tweepy.
 
-The dataset in extracted from Kaggle website.
-
-In order to analyze the comments, we used Pre-trained BERT model to score the sentiment (positive,negative,neutral) per comment and then averaged them per video. 
+Our Notebook pulls the required data from the Github repository in order to analyze the comments. We used Pre-trained BERT model to score the sentiment (positive,negative,neutral) per comment and then averaged them per video. Once the model has completed training we run it against the tweets pulled from our Access_Twitter_API.ipynb in the file src/replies.csv.
 
 ## Overview
 
@@ -88,5 +86,6 @@ Our BERT model has giving us 70% accuracy on the test data.
 2. For Youtube tweets
 
 ## Discussion
+
 
 ## Future Work
