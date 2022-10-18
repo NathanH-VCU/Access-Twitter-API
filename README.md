@@ -85,7 +85,7 @@ Our BERT model has giving us 70% accuracy on the test data.
 2. For Youtube tweets
 
 ## Discussion
-
+1. For the first code about Sentiment Analysis using YouTube comments, we can see that the model gave us good results of 70% accuracy. The F1_Score, Precision and Recall functions also gave good results.
 
 ## Future Work
-This work can be further developed to extract youtube comments and youtube replies about a specific brand or company to determine the feedback of customers and users.
+This work can be used for a "Market Making" stategy. Indeed, it can be further developed to extract youtube comments and youtube replies about a specific brand or company to determine the feedback of customers and users.
