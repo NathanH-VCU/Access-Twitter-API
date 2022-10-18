@@ -36,11 +36,15 @@ This package comprises the following classes that can be imported in Python :
 ## Installation Instructions
 This repo was tested on Python 2.7 and 3.5+ 
 This project was built and tested in Google Colab. It can be ran the same way. To run this project yourself:
-1. Follow this link to the Google Colab -
-2. Go to the Colab task bar
-3. Click Runtime
-4. Click Run All
-5. Wait until the process finishes, our tests took about _____ time.
+1. Follow this link to the Google Colab - https://colab.research.google.com/
+2. Go to the Colab task bar and click File > Open Notebook
+3. Click on GitHub
+4. Search for https://github.com/NathanH-VCU/Sentiment-Analysis-Nourchene-Nathan/blob/main/BERT_sentiment_analysis_using_Youtube_Comments.ipynb
+5. Click on BERT_sentiment_analysis_using_Youtube_Comments.ipynb
+6. Click Runtime
+7. Click Run All
+8. Authorize the notebook
+9. Wait until the process finishes, our tests took about _____ time.
 
 ## Usage Instructions
 
@@ -52,7 +56,7 @@ BERT_sentiment_analysis_using_Youtube_Comments.ipynb
 -	Dataset : YouTube comments from Kaggle
 
 ## Data
-For our data we are utilizing Kaggle's YouTube Statistics dataset, specifically the ccomments.csv file. This data set contains a list of Video ID's, comments, likes, and the Sentiment of the comments. For our project we are only utilizing th comments and their sentiment for training and developing our model.
+For our data we are utilizing Kaggle's YouTube Statistics dataset, specifically the comments.csv file. This data set contains a list of Video ID's, comments, likes, and the Sentiment of the comments. For our project we are only utilizing th comments and their sentiment for training and developing our model.
 The size of our data set is 18,409 comments with 12.7% negative sentiment, 25% neutral sentiment, and 62% positive sentiment. 
 
 ## Doc
