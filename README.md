@@ -31,7 +31,7 @@ This package comprises the following classes that can be imported in Python :
 - The **Transformer** PyTorch models (`torch.nn.Module`) 
 - Optimizer for **BERT**  `Adam` - Bert version of Adam algorithm with warmup and linear decay of the learning rate.
 
-## Installation Instructions
+## Installation and Usage Instructions
 This repo was tested on Python 2.7 and 3.5+ 
 This project was built and tested in Google Colab. It can be ran the same way. To run this project yourself:
 1. Follow this link to the Google Colab - https://colab.research.google.com/
@@ -42,9 +42,7 @@ This project was built and tested in Google Colab. It can be ran the same way. T
 6. Click Runtime
 7. Click Run All
 8. Authorize the notebook
-9. Wait until the process finishes, our tests took about _____ time.
-
-## Usage Instructions
+9. Wait until the process finishes, our tests took about 40 minuets with our sample data.
 
 ## Method
 1. For the code for Sentiment Analysis using BERT titled : 
@@ -54,8 +52,9 @@ BERT_sentiment_analysis_using_Youtube_Comments.ipynb
 -	Dataset : YouTube comments from Kaggle
 
 ## Data
-For our data we are utilizing Kaggle's YouTube Statistics dataset, specifically the comments.csv file. This data set contains a list of Video ID's, comments, likes, and the Sentiment of the comments. For our project we are only utilizing th comments and their sentiment for training and developing our model.
+For our data we are utilizing Kaggle's YouTube Statistics dataset, specifically the comments.csv file. This data set contains a list of Video ID's, comments, likes, and the Sentiment of each comment. For our project we are only utilizing the comments and their sentiment for training and developing our model.
 The size of our data set is 18,409 comments with 12.7% negative sentiment, 25% neutral sentiment, and 62% positive sentiment. 
+For our twitter data we are using tweepy to pull from the twitter api all replies to Youtube tweets. This data includes the origional tweet from YouTube, the Reply that is 6 words or longer and the user who replied. The only information we need from this is the reply.
 
 ## Doc
 
