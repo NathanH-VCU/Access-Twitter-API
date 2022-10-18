@@ -85,7 +85,11 @@ Our BERT model has giving us 70% accuracy on the test data.
 2. For Youtube tweets
 
 ## Discussion
-1. For the first code about Sentiment Analysis using YouTube comments, we can see that the model gave us good results of 70% accuracy. The F1_Score, Precision and Recall functions also gave good results.
+1. For the first code about Sentiment Analysis using YouTube comments.
+This project consists of creating a machine learning algorithm for classifying text according to their Sentiment "postive", "negative" and "Neutral".
+We have demonstrated how BERT is the new revolution in Natural Language processing especially in Sentiment Analysis.
+Additionally, a Gradient-Descent algorithm was developed for this classification task.
+We can see that the model gave us good results of 70% accuracy. The F1_Score, Precision and Recall functions also gave good results.
 
 ## Future Work
-This work can be used for a "Market Making" stategy. Indeed, it can be further developed to extract youtube comments and youtube replies about a specific brand or company to determine the feedback of customers and users.
+This work can be used for a "Market Making" strategy. Indeed, it can be further developed to extract youtube comments and youtube replies about a specific brand or company to determine the feedback of customers and users. We want to use more complex algorithms on a more enriched dataset in the future.
