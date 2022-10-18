@@ -12,6 +12,8 @@
 | [Notebooks](#notebooks) | Introduction on the provided Jupyter Notebooks |
 | [Data](#data) | Data used to train the models |
 | [Results](#results) | Results of the models |
+| [Discussion](#discussion) | Discuss the results of the project |
+| [Future work](#future_Work) | What's next |
 
 ## Project Description
 Our Project utilizes the BERT model and PyTorch to provide a sentiment analysis of our YouTube Comments/tweets dataset.
