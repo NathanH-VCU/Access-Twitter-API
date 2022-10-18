@@ -88,3 +88,4 @@ Our BERT model has giving us 70% accuracy on the test data.
 
 
 ## Future Work
+This work can be further developed to extract youtube comments and youtube replies about a specific brand or company to determine the feedback of customers and users.
