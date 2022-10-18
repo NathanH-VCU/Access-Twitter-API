@@ -15,7 +15,7 @@
 | [Discussion](#discussion) | Discuss the results of the project |
 | [Future Work](#future_Work) | What's next |
 
-## Project Description
+## Project description
 Our Project utilizes the BERT model and PyTorch to provide a sentiment analysis of our YouTube Comments/tweets dataset.
 
 In our project, we analyze YouTube comments provided by Kaggle and we evaluate whether they are positive, negative or neutral with the pre-trained model BERT.
