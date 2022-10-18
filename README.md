@@ -12,10 +12,8 @@
 | [Notebooks](#notebooks) | Introduction on the provided Jupyter Notebooks |
 | [Data](#data) | Data used to train the models |
 | [Results](#results) | Results of the models |
-| [Discussion](#discussion) | Discuss the results of the project |
-| [Future Work](#future_Work) | What's next |
 
-## Project description
+## Project Description
 Our Project utilizes the BERT model and PyTorch to provide a sentiment analysis of our YouTube Comments/tweets dataset.
 
 In our project, we analyze YouTube comments provided by Kaggle and we evaluate whether they are positive, negative or neutral with the pre-trained model BERT.
@@ -84,7 +82,9 @@ Our BERT model has giving us 70% accuracy on the test data.
 
 ![image](https://user-images.githubusercontent.com/83011466/196296921-76b9cbfa-6e26-47b5-b8f0-f9efe0b4b8aa.png)
 
-2. For Youtube tweets
+2. For Youtube tweets and predicting sentiment
+The code Sentiment Analysis.ipynb gave us a low accuracy of 22%.
+Additionally each twitter reply sentiment prediction produced a negative result
 
 ## Discussion
 1. For the first code about Sentiment Analysis using YouTube comments.
@@ -92,6 +92,8 @@ This project consists of creating a machine learning algorithm for classifying t
 We have demonstrated how BERT is the new revolution in Natural Language processing especially in Sentiment Analysis.
 Additionally, a Gradient-Descent algorithm was developed for this classification task.
 We can see that the model gave us good results of 70% accuracy. The F1_Score, Precision and Recall functions also gave good results.
+
+2. While Sentiment Analysis.ipynb is definitly not our flagship notebook we wanted to provide some results that would show the difference between the two platforms, YouTube and Twitter. While the accuracy is very low the results could still show that those who comment on Twitter regarding Youtube is often with a negative sentiment (directed towards YouTube) than those who generally coment on YouTube videos (sentiment directed toward YouTube Content Providers).
 
 ## Future Work
 This work can be used for a "Market Making" strategy. Indeed, it can be further developed to extract youtube comments and youtube replies about a specific brand or company to determine the feedback of customers and users. We want to use more complex algorithms on a more enriched dataset in the future.
