@@ -84,7 +84,7 @@ Our BERT model has giving us 70% accuracy on the test data.
 
 2. For Youtube tweets and predicting sentiment
 The code Sentiment Analysis.ipynb gave us a low accuracy of 22%.
-Additionally each twitter reply sentiment prediction produced a negative result
+Additionally each twitter reply sentiment prediction produced a negative result.
 
 ## Discussion
 1. For the first code about Sentiment Analysis using YouTube comments.
